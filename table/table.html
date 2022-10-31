@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиця</title>
+    <style>
+        td, tr{
+            height: 70px;
+            width: 70px;
+        }
+        td, table, tr{
+            border: 2px solid black;
+        }
+        table{
+            margin: 50px auto;
+        }
+        div{
+            font-size: 20px;
+            text-align: center;
+        }        
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2" style="background:grey;"></td>
+                <td style="background:rgb(5, 78, 9);"></td>
+                <td style="background:rgb(5, 78, 9);"></td>
+                <td style="background:rgb(5, 78, 9);"></td>
+                <td rowspan="3" style="background:rgb(17, 243, 54);"></td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="background:green;"></td>
+                <td style="background:rgb(5, 78, 9);"></td>
+                <td colspan="3" rowspan="2" style="background:yellow;"></td>                
+            </tr>
+            <tr>
+                <td style="background:rgb(5, 78, 9);"></td>
+            </tr>
+            <tr>
+                <td colspan="3" rowspan="2" style="background:blue;"></td>
+                <td style="background:rgb(5, 78, 9);"></td>
+                <td style="background:rgb(5, 78, 9);"></td>
+                <td rowspan="2" style="background:green;"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background: grey;"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div><a href="../index.html">Головна сторінка</a></div>
+</body>
+</html>
